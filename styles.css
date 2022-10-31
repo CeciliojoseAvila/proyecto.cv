@@ -1,0 +1,116 @@
+body{
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', 'Arial';
+}
+li{
+    line-height: 24px;
+}
+/* en ccontenedor-principal hacemos la division de la pagina */
+/* contenedor general */
+.contenedor-principal{
+    display: flex;
+    flex-direction:row-reverse;   
+    background-color: white;
+    width: 1200px;
+    margin: 40px auto;  
+         
+}
+.primer-elemento-lista{
+
+}
+/* informacion general */
+.descripcion{
+    background-color: null;
+    margin-bottom: 40px;
+    
+}
+.descripcion-profesion{
+    font-size: 14px;
+    font-weight: 700;
+}
+.proyectos{
+    background-color: null;
+}
+.experiencia-laboral{
+   
+}
+.educacion{
+    
+}
+/* el  padding: 40px; es para dar las medidas al contenedor interno de las fotos o img  */
+
+/* informacion lateral */
+.informacion-lateral{
+    background-color: #1E2939;
+    padding: 40px 0;   
+
+}
+.contactos{
+    color: white;   
+}
+.habilidades-tecnicas{
+    color: white;    
+}
+.habilidades-blandas{
+    color: white;    
+}
+.titulo-lateral{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 50px;
+}
+/* a continuacion le damos el margen a contactos, habilidades tecnicas y h. blandas */
+.habilidades-blandas, .habilidades-tecnicas, .contactos{
+    margin-left: 40px;
+}
+/* span de seccion de contactos C = Correo y E = Mailto */
+.tipo-contacto{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+.contacto-info{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #a1a1a1ef;;
+}
+
+/* lista lateral ul habilidades-tecnicas, le damos color a los . creamos una class con .elemento-lista-lateral para definir los dettalles.*/
+.lista-lateral{   
+    padding-left: 17px;    
+}
+.lista-lateral > li{
+    color: #FB6D3A;
+}
+.elemento-lista-lateral{
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* lista lateral ul habilidades-blandas*/
+.lista-soft{     
+    padding-left: 17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.lista-soft > li{
+    color: #FB6D3A;
+}
+.elemento-lista-soft{
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}

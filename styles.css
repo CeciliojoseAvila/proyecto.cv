@@ -1,24 +1,80 @@
 body{
     background-color: #FFFFFF;
     font-family: 'Montserrat', 'Arial';
+    
 }
 li{
     line-height: 24px;
 }
-/* en ccontenedor-principal hacemos la division de la pagina */
+/* en ccontenedor-principal hacemos la division de la pagina. 
+box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1) sirve para hacer el borde de linea en toda la pagina//*/
+
+/* <!-- ------------------- --> */
 /* contenedor general */
+/* <!-- ------------------- --> */
 .contenedor-principal{
     display: flex;
     flex-direction:row-reverse;   
     background-color: white;
     width: 1200px;
     margin: 40px auto;  
-         
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);         
 }
-.primer-elemento-lista{
 
+/* el padding genera los margenes al interior de cada contenedor */
+.informacion-general{
+    padding: 100px 88px;
 }
-/* informacion general */
+
+.texto-en-naranja{
+    color: #FB6D3A;
+}
+
+.periodo-laboral{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+/* <!-- ------------------- --> */
+/* informacion general */ 
+/* <!-- ------------------- --> */
+
+.periodo-educativo{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+.nombre{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    
+}
+.texto-descripcion{
+    width: 400px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(112, 109, 109);
+}
+
+.titulo-seccion-principal{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 45px;
+}
+
 .descripcion{
     background-color: null;
     margin-bottom: 40px;
@@ -28,18 +84,65 @@ li{
     font-size: 14px;
     font-weight: 700;
 }
-.proyectos{
-    background-color: null;
+
+/* seccion de proyectos */
+.lista-proyectos{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    padding-left: 17px;
 }
-.experiencia-laboral{
+
+.enlace-proyectos{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-shadow: 0px 4px 4px 
+}
+
+.puntitos-proyecto{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+    letter-spacing: 1.5px;
+}
+/* seccion de experiencia laboral */
+.roll-en-empresa{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 11px;
+}
+.lista-experiencia{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 17px;
+}
+
+.titulo-educacion{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
    
-}
-.educacion{
-    
+    margin: 10px 0;
 }
 /* el  padding: 40px; es para dar las medidas al contenedor interno de las fotos o img  */
 
+/* <!-- ------------------- --> */
 /* informacion lateral */
+/* <!-- ------------------- --> */
 .informacion-lateral{
     background-color: #1E2939;
     padding: 40px 0;   
@@ -60,7 +163,9 @@ li{
     font-size: 22px;
     line-height: 27px;
     margin-top: 50px;
+    margin-bottom: 8px;
 }
+
 /* a continuacion le damos el margen a contactos, habilidades tecnicas y h. blandas */
 .habilidades-blandas, .habilidades-tecnicas, .contactos{
     margin-left: 40px;
